@@ -1287,7 +1287,8 @@ Svara ENBART med ett JSON-objekt utan markdown-kod (inga backticks). Formatet:
 Ge 4-6 välgrundade suggestions och 4-5 konkreta actionPlan-steg. Action plan ska vara sorterad: akuta åtgärder (now = denna vecka) → kortsiktigt (soon = denna månad) → långsiktigt (long = nästa halvår+). Fokusera på verkliga, specifika åtgärder baserade på datan.`;
 
       try {
-        const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=DIN_GOOGLE_API_NYCKEL', {
+        const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyA4hJIaIA3si3gBQql3nYCzh_85UnCiqgw
+', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
